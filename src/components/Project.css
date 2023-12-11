@@ -1,0 +1,106 @@
+.project{
+    /* border: 2px solid white; */
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.projects{
+    /* border:2px solid white; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.projects>img{
+    width:50%;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+}
+.projects>.details{
+   font-size: 20px;
+   width:50%;
+   height: 350px;
+}
+.projects>.details>ul{
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+.projects>.details>ul>li{
+    text-align: left;
+}
+#button{
+        color:black;
+        font-family: 'Poppins',sans-serif;
+        font-size: 30px;
+        display: block;
+        margin-top: 30px;
+        margin-left: 20px;
+        border: 2px solid white;
+        font-size: 20px;
+}
+.projects>.details>.button{
+    display: flex;
+}
+@media screen and (max-width: 1280px){
+    .project{
+        width: 800px;
+        margin-top: 160px;
+       
+    }
+    .projects{
+        width: 750px;
+        margin-left: 3%;
+       
+    }
+    .projects>.details>ul{
+        font-size: small;
+        line-height: 20px;
+    }
+    .projects>.details{
+        margin-top: 20px;
+        width: auto;
+    }
+    
+}
+@media screen and (max-width:800px){
+    .project{
+        width:100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: auto;
+    }
+    .projects{
+        display: inline;
+        width: 100%;
+    }
+    .projects>img{
+       width: 80%;
+       margin-left: 0px;
+       height: auto;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    }
+    .projects>.details>ul{
+        font-size: large;
+        line-height: 30px;
+    }
+    #button{
+        margin: auto;
+        margin-top:30px;
+    }
+    .projects>.details{
+        height: 250px;
+    }
+   
+}

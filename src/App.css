@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap');
+ 
+.App{
+  
+    font-family: Poppins;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv7K7XT6jWRmhTNwbbS87JV61azghs5IIPBA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    font-size: larger;
+    border: 2px solid rgb(236, 232, 232);
+    
+}

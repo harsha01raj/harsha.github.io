@@ -1,0 +1,78 @@
+*{
+    text-align: center;
+}
+.About{
+    width: 60%;
+    margin: auto;
+   padding-top: 20px;
+   margin-top: 50px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+p{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+button{
+    border: none;
+}
+button>img{
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin-top: 25px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}
+.copy>button{
+   height: 0px;
+    background-color: rgb(40, 38, 38) ; 
+    margin-top: 10px;
+}
+button:hover{
+    text-decoration:underline;
+    text-decoration-color: white;
+    color:white;
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+@media screen and (max-width:800px){
+    .About{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .copy{
+        height: 50px;
+    }
+    .copy>button{
+        margin-top: -25px;
+
+    }
+    p{
+        margin-top:5px
+
+    }
+    button{
+        margin-top:0px;
+    }
+}
+@media screen and (max-width:550px){
+    .About{
+        height: auto;
+    }
+    .copy{
+       padding-bottom: 10px;
+       height: 85px;
+       display: inline;
+    }
+    .copy>button>img{
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+}
