@@ -4,8 +4,7 @@ import Typed from "react-typed";
 const Home = () => {
   const openResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1i-5Khs7b5nKI2ZngfP4Yae3NsL8spX3Y/view?usp=sharing",
-      "_blank"
+      "https://drive.google.com/file/d/1EEKWc65ymsoBJiQiEhowWj-u7CpHshgO/view?usp=sharing"
     );
   };
   return (

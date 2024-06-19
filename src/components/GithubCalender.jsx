@@ -1,11 +1,12 @@
 import GitHubCalendar from "react-github-calendar";
 export default function GithubCalender() {
   return (
-    <>
+    <div id="githubCalendar">
     <GitHubCalendar
       className="react-activity-calendar"
       color="skyblue"
       username="harsha01raj"
+      style={{margin:'auto'}}
     />
     
     <p>
@@ -32,7 +33,7 @@ export default function GithubCalender() {
         alt="harsha01raj"
       />
     </p>
-    </>
+    </div>
   );
 }
 
